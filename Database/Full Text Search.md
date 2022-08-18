@@ -1,4 +1,4 @@
-# Like 대신 Full Text Search
+# Full Text Search
 
 일반적으로 DB에서 특정 단어가 포함된 레코드를 찾을 때 LIKE를 사용한다.
 하지만 LIKE는 '%단어%' 형태로, 인덱스를 사용하지 않아 데이터가 대략 10000건이 넘어가면 속도가 느려진다고 한다. 그래서 Full Text Search 방법에 대해 찾아보았다.
