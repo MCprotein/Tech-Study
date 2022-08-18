@@ -3,8 +3,11 @@
 수많은 자료구조중에 DB의 인덱스가 B-Tree 자료구조를 선택한 이유
 
 ## Tree 자료구조
+![image](https://user-images.githubusercontent.com/89785501/185393084-943f15a4-6242-481c-9109-0bac968756e1.png)
 
 - 시간복잡도 평균 O(logN)
+![image](https://user-images.githubusercontent.com/89785501/185393097-39f19396-4095-46d3-a0fe-0da38cb7830c.png)
+
 - 최악의 경우에 O(N) -> 이것을 방지하기 위해 Balanced Tree 사용
 
 ## 탐색시간이 제일 빠른 Hash Table을 DB 인덱스로 사용할 수 없는 이유
@@ -19,10 +22,12 @@
 - RedBlack-Tree, B-Tree
 
 ### RedBlack-Tree
+![image](https://user-images.githubusercontent.com/89785501/185393147-69fdb045-0944-4286-94dc-0553a34c06b1.png)
 
 - 노드가 하나의 값만 가지고, 좌우 자식 노드의 개수 밸런스를 맞춘다.
 
 ### B-Tree
+![image](https://user-images.githubusercontent.com/89785501/185393152-6c14a45a-4ce7-4e84-8f3d-924f1c0ca26d.png)
 
 - 노드 하나에 여러 데이터가 저장될 수 있다. 각 노드 내 데이터들은 항상 정렬된 상태이며, 데이터와 데이터 사이의 범위를 이용하여 자식 노드를 가진다. 그러므로 자식 노드 개수는 n+1이다.
 
@@ -49,6 +54,7 @@ B-Tree는 같은 노드 공간의 데이터끼리 참조 포인터 값으로 접
 B-Tree에서 노드 내 데이터 개수는 상수이기 때문에 노드 탐색 시간은 시간 복잡도 계산에서 제외된다.
 
 ### 배열이 DB 인덱스로 선택받지 못한 이유
+![image](https://user-images.githubusercontent.com/89785501/185393203-f2958b90-1d65-40bd-9f1c-6c7d82ee117d.png)
 
 B-Tree보다 빠른 것은 탐색뿐이다.
 배열 내에서 데이터 저장, 삭제는 훨씬 비효율적이다.
@@ -61,6 +67,7 @@ B-Tree보다 빠른 것은 탐색뿐이다.
 3. 데이터 탐색뿐 아니라, 저장, 수정, 삭제에도 항상 O(logN)의 시간 복잡도를 가진다.
 
 ## LinkedList가 DB 인덱스로 선택받지 못한 이유
+![image](https://user-images.githubusercontent.com/89785501/185393227-4f169a4c-65fd-4351-9e22-cd9712f777bb.png)
 
 - 탐색을 무조건 제일 앞부분인 HEAD에서부터 시작해야 하기 때문에 비효율적이다.
 - 즉, Index Number로 해당 요소에 바로 접근할 수 없다.
