@@ -18,3 +18,5 @@
 
 - 첫 페이지는 백엔드 서버에서 rendering하여 빈 html이 아닌 데이터가 채워진 html을 받아와 SEO문제를 해결한다.
 - 그 다음 페이지부터는 CSR 방식을 적용하여 필요한 데이터만 부분 갱신하여 서버의 부하를 줄인다.
+
+#### 출처: https://www.sarah-note.com/%ED%81%B4%EB%A1%A0%EC%BD%94%EB%94%A9/posting2/
