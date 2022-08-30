@@ -15,6 +15,8 @@
 
 - 동시성은 여러 계산이 동시에 실행되는 컴퓨팅의 한 형태이다. (concurrently)
 - 병렬성은 많은 계산 또는 프로세스 실행이 동시에 수행되는 계산 유형이다. (parallel, simultaneously)
+- 
+![image](https://user-images.githubusercontent.com/89785501/187505456-70c44196-1abb-49e6-baee-58156076efbb.png)
 
 - Case 1은 concurrently하게 진행되며, simultaneously하게 진행되지 않는다.
 - Case 2sms concurrently하고 simultaneously하게 진행된다.
