@@ -43,3 +43,4 @@ Context Switching시, Context Switching을 수행하는 CPU는 Cache와 Memory M
 
 - https://jins-dev.tistory.com/entry/%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8-%EC%8A%A4%EC%9C%84%EC%B9%98Context-Switching-%EC%97%90-%EB%8C%80%ED%95%9C-%EC%A0%95%EB%A6%AC
 - https://nesoy.github.io/articles/2018-11/Context-Switching
+- https://jeong-pro.tistory.com/93
