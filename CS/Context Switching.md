@@ -9,6 +9,7 @@
 Context Switching이란 CPU가 한 개의 Task(Process/Thread)를 실행하고 있는 상태에서 Interrupt 요청에 의해 다른 Task로 실행이 전환되는 과정이다. <br> 이 때, 기존의 Task 상태 및 Register 값들에 대한 정보(Context)를 저장하고 새로운 Task의 Context 정보로 교체된다. <br><br>
 
 여기서 Context란, CPU가 다루는 Task(Process / Thread)에 대한 정보로, 대부분의 정보는 Register에 저장되며 PCB(Process Control Block)로 관리된다. <br><br>
+![image](https://user-images.githubusercontent.com/89785501/187870344-087443c1-b323-4034-9def-a7f93f7ae24f.png)
 
 - Process State : 프로세스 상태(Create, Ready, Running, waiting, terminated)
 - Process Counter : 다음 실행할 명령어의 주소값
